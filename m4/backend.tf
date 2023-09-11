@@ -1,9 +1,11 @@
+#for deploying to terraform cloud through the CLI
+
 terraform {
   cloud {
-    organization = "ORG_NAME"
+    organization = "Globomantic-mighty"
 
     workspaces {
-      name = "diamonddogs-app-useast1-dev"
+      name = "Globo-app-us-east-1-dev"
     }
   }
 }
